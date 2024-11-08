@@ -26,11 +26,11 @@
 		"params": {
 		  "provider": "CUSTOM",
 		  "scopes": [],
-		  "clientId": "<CLIENT_ID>",
-		  "clientSecret": "<CLIENT_SECRET>",
+		  "clientId": "5165ac8d5d441897f462086db9bd66e7a940510d9dde2b12f456ba70bbbfe3a3c531b5cf4efdbe4cece3e4ea8881236524a24749ede4201c8ba01a6e3461d304",
+		  "clientSecret": "8cc8559ad7df007ed27ab39fd760fde9ba9361b3837f2496d3fbc84231d999d013d53791b92f8253e26bb73e0af7f9d65f4d4b9066abedf1d8cc8fb3d25e58a6",
 		  "customConfig": {
-			"tokenUrl": "<PROXY_BASE_URL>/api/oauth/token",
-			"authorizationUrl": "<PROXY_BASE_URL>/api/oauth/authorize",
+			"tokenUrl": "https://e211-67-209-233-49.ngrok-free.app/api/oauth/token",
+			"authorizationUrl": "https://e211-67-209-233-49.ngrok-free.app/api/oauth/authorize",
 			"authorizationParams": {
 			  "access_type": "offline",
 			  "prompt": "consent"
@@ -64,7 +64,7 @@
 		"template": "DataIO.Version6.CreateRecord",
 		"connectionsReference": "authentication",
 		"params": {
-		  "uri": "<PROXY_BASE_URL>/api/dataio/createRecord"
+		  "uri": "https://e211-67-209-233-49.ngrok-free.app/api/dataio/createRecord"
 		}
 	  },
 	  {
@@ -73,7 +73,7 @@
 		"template": "DataIO.Version6.PatchRecord",
 		"connectionsReference": "authentication",
 		"params": {
-		  "uri": "<PROXY_BASE_URL>/api/dataio/patchRecord"
+		  "uri": "https://e211-67-209-233-49.ngrok-free.app/api/dataio/patchRecord"
 		}
 	  },
 	  {
@@ -82,7 +82,7 @@
 		"template": "DataIO.Version6.SearchRecords",
 		"connectionsReference": "authentication",
 		"params": {
-		  "uri": "<PROXY_BASE_URL>/api/dataio/searchRecords"
+		  "uri": "https://e211-67-209-233-49.ngrok-free.app/api/dataio/searchRecords"
 		}
 	  },
 	  {
@@ -91,7 +91,7 @@
 		"template": "DataIO.Version6.GetTypeNames",
 		"connectionsReference": "authentication",
 		"params": {
-		  "uri": "<PROXY_BASE_URL>/api/dataio/getTypeNames"
+		  "uri": "https://e211-67-209-233-49.ngrok-free.app/api/dataio/getTypeNames"
 		}
 	  },
 	  {
@@ -100,12 +100,12 @@
 		"template": "DataIO.Version6.GetTypeDefinitions",
 		"connectionsReference": "authentication",
 		"params": {
-		  "uri": "<PROXY_BASE_URL>/api/dataio/getTypeDefinitions"
+		  "uri": "https://e211-67-209-233-49.ngrok-free.app/api/dataio/getTypeDefinitions"
 		}
 	  }
 	],
 	"publicationRegions": [
 		"US"
 	],
-	"distribution": "PUBLIC"
+	"distribution": "PRIVATE"
   }
